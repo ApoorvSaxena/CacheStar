@@ -1,3 +1,6 @@
+---
+---
+
 var isTouchDevice = 'ontouchstart' in document.documentElement;
 var application = function() {
     init = function() {
@@ -13,13 +16,13 @@ var application = function() {
 
     load = {
         images: function() {
-            application.game.load.image('sky', '/assets/images/sky.jpg');
-            application.game.load.image('ground', '/assets/images/platform.gif');
-            application.game.load.image('star', '/assets/images/star.png');
-            application.game.load.spritesheet('dude', '/assets/images/dude.png', 32, 48);
+            application.game.load.image('sky', '{{ site.baseurl }}/assets/images/sky.jpg');
+            application.game.load.image('ground', '{{ site.baseurl }}/assets/images/platform.gif');
+            application.game.load.image('star', '{{ site.baseurl }}/assets/images/star.png');
+            application.game.load.spritesheet('dude', '{{ site.baseurl }}/assets/images/dude.png', 32, 48);
         },
         audio: function() {
-            application.game.load.audio('sfx', 'assets/audio/soundeffects/fx_mixdown.ogg');
+            application.game.load.audio('sfx', '{{ site.baseurl }}/assets/audio/soundeffects/fx_mixdown.ogg');
             application.game.audio = application.game.add.audio('sfx');
             application.game.audio.addMarker('ping', 10, 1.0);
             application.game.audio.addMarker('move', 9, 1.0);
