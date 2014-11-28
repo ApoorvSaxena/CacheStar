@@ -1,0 +1,13 @@
+# Site settings
+title: CacheStar
+email: root@apoorv.pro
+description: > #
+  Phaser, our cute little Alien is on a hunt to catch naughty stars who have come far from their home,
+  and is given the responsibility to return them back to their home.
+  Help him in his quest to return maximum stars to their home in minimum time.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://apoorvsaxena.github.io" # the base hostname & protocol for your site
+github_username:  ApoorvSaxena
+
+# Build settings
+markdown: kramdown
