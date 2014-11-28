@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <title>CacheStar | Game</title>
+        <meta property="og:title" content="CacheStar | Game" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="CacheStar: Catch Stars with our Cute little Alien Phaser" />
+        <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/application.css">
+        <script type="text/javascript" src="/assets/js/phaser.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/node_modules/game-controller/gamecontroller.min.js"></script>
+        <script type="text/javascript" src="/assets/js/application.js"></script>
+        <script type="text/javascript" src="/assets/js/share.min.js"></script>
+    </head>
+    <body>
+        <div id="touch-devices"></div>
+        <div id="game-end" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+          <div class="modal-dialog modal-sm">
+              <div class="modal-content text-center">
+                  <h2>Reload for New Level</h2>
+                  <button id="reload-button" type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-refresh"></i></button><br><br>
+                  <div id="share-button" class="center-block"></div>
+              </div>
+          </div>
+        </div>
+    </body>
+</html>
